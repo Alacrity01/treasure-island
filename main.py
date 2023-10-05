@@ -67,18 +67,6 @@ def play_treasure_island():
         fate = "Your indecisiveness and nonconforming choices sealed your fate. You become disoriented. Time itself seems to crumble. The house is gone. Your feet blister on the hot sand. There is no lake around you. Nothing remains but sand and cloudless sky. You wither beneath the scorching sun. Your desiccated remains are tumbleweed, carried to Nowhere by an impartial, unforgiving wind. Your name is lost to history. Game over."
     return fate
 
-    # "It's a room full of fire. Game Over."
-    # "You found the treasure! You Win!"
-    # "You enter a room of beasts. Game Over."
-    # "You chose a door that doesn't exist. Game Over."
-    # "You get attacked by an angry trout. Game Over."
-    # "You fell into a hole. Game Over."
-    # Escaping Characters
-    # If you want to use multiple sets of quotes inside a single string, you might have to "escape" some of them using the backslash \. You can see this in my first sentence: 'You're at a crossroad...'. More on escaping characters here.
-
-    # Extensions
-    # Have a think about how you might write your program to make a player's answers less case-sensitive. In other words, your code should work regardless of whether your user answers "left" or "Left".
-
 
 fate = play_treasure_island()
 print(fate)
